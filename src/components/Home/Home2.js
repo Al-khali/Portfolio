@@ -24,14 +24,16 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> python, Javascript, c++ </b>
+                <b className="purple"> python, R and Javascript </b>
               </i>
               <br />
               <br /> 
                 I am also currently learning{" "}
                 <i>
-                  <b className="purple"> Lua, Rust and Golang</b>
+                  <b className="purple"> Lua, Rust and Golang </b>
+                  for my Personal Projects.
                 </i>
+              <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
@@ -102,7 +104,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/lidkazz/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
