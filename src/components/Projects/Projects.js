@@ -57,10 +57,12 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Prediction of wine quality"
+              description="This project aims to determine which chemical characteristics are the best indicators of red wine quality. To be more specific, we define the following problems for this analysis:
+              Show the contribution of each factor to wine quality in our model.
+              Show which characteristics are most important in determining wine quality.
+              Show which characteristics are less important in determining wine quality. As mentioned earlier, our target variable will be wine quality, which is scored between 0 and 10."
+              ghLink="https://github.com/Al-khali/P8"
             />
           </Col>
 
