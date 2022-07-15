@@ -4,7 +4,7 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiApple,
-  SiHeroku,
+  SiNetlify,
   SiVim,
 } from "react-icons/si";
 
@@ -24,7 +24,7 @@ function Toolstack() {
         <SiVim />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiNetlify />
       </Col>
     </Row>
   );
