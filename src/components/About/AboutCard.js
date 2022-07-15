@@ -24,14 +24,14 @@ function AboutCard() {
               <ImPointRight /> watching movies and series 
             </li>
             <li className="about-activity">
-              <ImPointRight /> building mechanical things like keyboards you can find my laste keyboards on my github
+              <ImPointRight /> building mechanical things like keyboards, you can find my laste keyboards on my github profile
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer"> Martin Fowler</footer>
         </blockquote>
       </Card.Body>
     </Card>
