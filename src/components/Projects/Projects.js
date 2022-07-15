@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import as from "../../Assets/Projects/as.png";
+import dash from "../../Assets/Projects/dash.png";
+import nba from "../../Assets/Projects/nba.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bank from "../../Assets/Projects/bank.png";
+import chat from "../../Assets/Projects/chat.png";
 
 function Projects() {
   return (
@@ -28,13 +28,12 @@ function Projects() {
               title="Rust chat app"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with Rust"
               ghLink="https://github.com/Al-khali/rust_chat_app"
-             // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={chat}
               isBlog={false}
               title="chat_bot"
               description="a chat bot build with python using NLP algorithm with NLTK framework"
@@ -45,7 +44,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={nba}
               isBlog={false}
               title="NBA vs EL"
               description="We draw a comparison between the two main professional basketball leagues in the USA and Europe: the NBA and the Euroleague, respectively. More precisely, we scrape from the internet both statistical and biographical data of players and teams who participated in one of those two leagues between 2016 and 2020. The goal of the project is to expose ways in which the two leagues might differ. In particular, we try to answer different questions"
@@ -55,7 +54,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={as}
               isBlog={false}
               title="Prediction of wine quality"
               description="This project aims to determine which chemical characteristics are the best indicators of red wine quality. To be more specific, we define the following problems for this analysis:
@@ -68,7 +67,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={bank}
               isBlog={false}
               title="Credit EDA Case Study"
               description="The loan providing companies find it hard to give loans to the people due to their insufficient or non-existent credit history. Because of that, some consumers use it as their advantage by becoming a defaulter. Suppose you work for a consumer finance company which specialises in lending various types of loans to urban customers. We use EDA to analyse the patterns present in the data. This will ensure that the applicants capable of repaying the loan are not rejected."
@@ -78,7 +77,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={dash}
               isBlog={false}
               title="dashboard streamlit"
               description="A quickly-deployed dashboard for viewing information about the stocks from Kiplinger 22 Stocks for 2022 as of April 16, 2022. Created in Python with yfinance, plotly, matplotlib, and pandas, deployed using Streamlit."
