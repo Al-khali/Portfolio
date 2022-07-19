@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href=""
+                href="http://al-khali.github.io/hugo_blog/"
                 target="_blank"
                 rel="noreferrer"
               >
